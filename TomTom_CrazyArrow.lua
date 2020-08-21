@@ -120,6 +120,10 @@ function TomTom:IsCrazyArrowEmpty()
     return not active_point
 end
 
+function TomTom:GetActivePoint()
+    return active_point
+end
+
 local status = wayframe.status
 local tta = wayframe.tta
 local arrow = wayframe.arrow
